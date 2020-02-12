@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
 {
     [SerializeField]
-    private GameObject Player;
+    private GameObject player;
     [SerializeField]
     private Text playerPoints;
     [SerializeField]
@@ -18,6 +18,9 @@ public class GameManager : MonoBehaviour
     private GameObject sniperGun;
     [SerializeField]
     private GameObject pausePanel;
+    [SerializeField]
+    private GameObject shootingRangeDetection;
+    public bool IsInRange;
 
     // Start is called before the first frame update
     void Start()
@@ -55,5 +58,8 @@ public class GameManager : MonoBehaviour
     {
         SceneManager.LoadScene("LevelTwo");
     }
+
+
+    
 
 }

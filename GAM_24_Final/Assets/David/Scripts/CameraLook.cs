@@ -4,15 +4,11 @@ using UnityEngine;
 
 public class CameraLook : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    Vector3 rotation;
+    public void Update()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        float mouse_y = Input.GetAxisRaw("Mouse Y");
+        rotation += new Vector3(mouse_y, 0f, 0f);
+        transform.localRotation = Quaternion.Euler(rotation * -1f);
     }
 }

@@ -1,9 +1,36 @@
 fileFormatVersion: 2
-guid: d6f15b45640c54e6992c76ba53e98040
+guid: 7f02033222aa2cc469ecb4d8fd0fcb3f
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
-    2186277476908879412: ImportLogs
+    100000: pCube1
+    100002: pCube5
+    100004: polySurface1
+    100006: polySurface10
+    100008: //RootNode
+    100010: Sniper_Rifle
+    400000: pCube1
+    400002: pCube5
+    400004: polySurface1
+    400006: polySurface10
+    400008: //RootNode
+    400010: Sniper_Rifle
+    2100000: Metal
+    2100002: Real_Rubber
+    2100004: Wood_Material
+    2100006: Glass
+    2300000: pCube1
+    2300002: pCube5
+    2300004: polySurface1
+    2300006: polySurface10
+    3300000: pCube1
+    3300002: pCube5
+    3300004: polySurface1
+    3300006: polySurface10
+    4300000: pCube1
+    4300002: polySurface1
+    4300004: pCube5
+    4300006: polySurface10
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -84,7 +111,7 @@ ModelImporter:
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 2
+  animationType: 0
   humanoidOversampling: 1
   additionalBone: 0
   userData: 

@@ -4,15 +4,19 @@ using UnityEngine;
 
 public class CursorLock : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    
+    public Vector3 recoilPosition;
+    float time;
+
+    public void Fire()
     {
-        
+        time = 0f;
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        transform.localPosition = Vector3.Lerp(recoilPosition, Vector3.zero, time);
+        time += Time.deltaTime * 2f;
     }
 }

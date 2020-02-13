@@ -4,7 +4,16 @@ using UnityEngine;
 
 public class GunTwo : MonoBehaviour
 {
-    // Start is called before the first frame update
+
+    public void Fire()
+    {
+
+
+    }
+
+
+
+    //Start is called before the first frame update
     void Start()
     {
         

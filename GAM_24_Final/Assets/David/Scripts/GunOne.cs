@@ -4,15 +4,16 @@ using UnityEngine;
 
 public class GunOne : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+
+    public GameObject rocketPrefab;
+
+    public void Fire()
     {
-        
+        GameObject projectile = Instantiate(rocketPrefab, transform.position, transform.rotation);
+
+        Rigidbody projectileRigidbody = projectile.GetComponent<Rigidbody>();
+        Vector3 force = transform.TransformDirection(Vector3.forward) * 1000f;
+        projectileRigidbody.AddForce(force);
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }

@@ -39,6 +39,7 @@ GameObject:
   - component: {fileID: 4323355499648796}
   - component: {fileID: 54510845139031502}
   - component: {fileID: 114202080609026730}
+  - component: {fileID: 114724550278705952}
   m_Layer: 0
   m_Name: RocketProjectile
   m_TagString: Untagged
@@ -214,6 +215,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   force: 0
+--- !u!114 &114724550278705952
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1717330082228146}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7125367c8ecf84a05a08a7486c8b9036, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startingVelocity: 20
+  radius: 10
+  damage: 10
+  delay: 3
 --- !u!135 &135308382291550120
 SphereCollider:
   m_ObjectHideFlags: 1

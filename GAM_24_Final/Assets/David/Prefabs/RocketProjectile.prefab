@@ -22,7 +22,7 @@ GameObject:
   - component: {fileID: 33678672602222170}
   - component: {fileID: 135308382291550120}
   - component: {fileID: 23025539941176240}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Sphere
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40,7 +40,7 @@ GameObject:
   - component: {fileID: 54510845139031502}
   - component: {fileID: 114202080609026730}
   - component: {fileID: 114724550278705952}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: RocketProjectile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -58,7 +58,7 @@ GameObject:
   - component: {fileID: 33076482472730502}
   - component: {fileID: 136832732814631808}
   - component: {fileID: 23447621629647672}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Cylinder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
